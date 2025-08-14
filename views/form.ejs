@@ -1,0 +1,24 @@
+<html lang="tr">
+
+<%- include("partials/_header") %>
+
+    <body>
+
+        <%- include("partials/_navbar") %>
+
+            <div id="contact-container">
+                <div class="contact-form">
+
+                    <h2 style="color:#ffff">Sorularınızı bize iletin!</h2>
+                    <form id="form" action="users/form" method="POST">
+                        <input type="text" name="name" placeholder="Adınız" required>
+                        <input type="email" name="email" placeholder="E-posta Adresiniz" required>
+                        <textarea name="message" placeholder="Mesajınız" required></textarea>
+                        <button class="send_btn" id="send-button">Gönder</button> <!--type="submit"-->
+                    </form>
+                </div>
+            </div>
+
+            <%- include("partials/_footer") %>
+
+    </body>

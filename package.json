@@ -1,0 +1,21 @@
+{
+  "name": "skingredient",
+  "version": "1.0.0",
+  "description": "skingredient project",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "parseurl": "^1.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
